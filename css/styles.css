@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/*MENU*/
+.contenedor-header {
+    background-color: rgb(24, 20, 19);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenido-banner h1{
+    color: rgb(240, 183, 31);
+}
+.contenido-banner h2{
+    color: rgb(255, 255, 255);
+}
+.contenido-banner h3{
+    color: rgb(255, 255, 255);
+}
+.contenido-banner p{
+    color: rgb(255, 255, 255);
+}
+.contenedor-header header .logo a {
+    color: rgb(240, 183, 31);
+    text-decoration: none;
+    font-size: 6vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    left: 5vh;
+}
+ul span {
+    color: rgb(240, 183, 31);
+}
+.contenedor-header header ul {
+    display: flex;
+    list-style: none;
+    padding: 1vh;
+    position: relative;
+    right: 50vh;
+}
+span {
+    color: white;
+}
+.contenedor-header header i {
+    color: rgb(240, 183, 31);
+}
+.fa-solid {
+    color: rgb(240, 183, 31);
+}
+.contenedor-header header nav ul li a {
+    text-align: none;
+    color: rgb(95, 87, 87);
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover {
+    color: rgb(240, 183, 31);
+}
+.nav-responsive {
+    background-color: rgb(240, 183, 31);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/*seccion inicio*/
+.inicio {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.inicio-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+img {
+    padding: 3px;
+    background-color: rgb(240, 183, 31);
+    width: 30vh;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(240, 183, 31);
+    margin-bottom: 20px;
+}
+.texto-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes {
+    font-size: 5vh;
+    margin-top: 20px;
+}
+.redes a {
+    text-decoration: none;
+    color: white;
+    padding: 0 2vh;
+}
+.redes a:hover {
+    color: rgb(240, 183, 31);
+}
+
+/*seccion sobre mi*/
+.contenido-seccion h2 {
+    color: rgb(71, 71, 71);
+    font-size: 10vh;
+    text-align: center;
+    position: relative;
+    bottom: 10vh;
+}
+.contenido-seccion h3 {
+    font-size: 5vh;
+    text-align: center;
+    margin-bottom: 4vh;
+    position: relative;
+    bottom: 19vh; 
+    color: white;
+}
+.contenido-seccion span {
+    color: rgb(240, 183, 31);
+}
+.sobremi .fila {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    gap: 2vh;
+}
+.sobremi .fila h4{
+    position: relative;
+    right: 35vh;
+}
+.btn {
+    display: inline-block;
+    background-color: rgb(24, 20, 19);
+    color: white;
+    text-decoration: none;
+    padding: 1vh 1vh;
+    margin-top: 4vh;
+    border: 1px solid rgb(240, 183, 31);
+    border-radius: 5vh;
+    position: relative;
+    right: 100vh;
+    top: 15vh;
+}
+.btn:hover {
+    color: rgb(240, 183, 31);
+}
+.sobremi .fila span {
+    color: rgb(71, 71, 71)
+}
+.sobremi .fila li {
+    list-style: none;
+    padding: 2vh;
+    color: white;
+    position: relative;
+    right: 78vh;
+    top: 15vh;
+}
+.columna2 ol {
+    text-align: center;
+}
+.sobremi .fila h4 {
+    font-size: 4vh;
+    text-align: center;
+    
+}
+
+.cajas1, .cajas2 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 20vh;
+    bottom: 20vh;
+}
+.cajas1 span, .cajas2 span {
+    color: rgb(240, 183, 31);
+    text-decoration: underline;
+    font-size: 35px;
+}
+.square {
+    width: 32vh;
+    height: 16vh;
+    background-color: rgb(24, 20, 19);
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 5px;
+}
+
+/*circulos*/
+.contenido_habilidades h2 {
+    text-align: center;
+    font-size: 6vh;
+    margin-bottom: 4vh;
+    color: white;
+}
+
+.redondos {
+    width: 11vh;
+    height: 11vh;
+    background-color: rgb(63, 63, 63);
+    border-radius: 50%;
+    color: white;
+    border: 3px solid rgb(240, 183, 31);
+    display: grid;
+    place-items: center;
+    font-size: 3vh;
+    margin: 2vh;
+}
+.circulos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+    justify-content: center;
+}
+
+.subtitulos {
+    display: flex;
+    color: white;
+    font-size: 4vh;
+    justify-content: center;
+    gap: 14vh;
+    margin-top: 4vh;
+    text-align: center;
+}
+
+/*estudios*/
+.educacion {
+    text-align: center;
+    margin-top: 4vh;
+}
+.estudios1,
+.estudios2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+    text-align: center;
+}
+
+.square1 {
+    width: 50vh; /* Ancho del rectángulo */
+    height: 16vh; /* Alto del rectángulo */
+    background-color: rgb(24, 20, 19); /* Color de fondo del rectángulo */
+    border: 1px solid rgb(57, 57, 57);
+    border-radius: 5px;
+    margin: 2vh 1vh; /* Espacio entre los rectángulos */
+    color: white;
+}
+.square1 span{
+    color: rgb(57, 57, 57)
+}
+.estudios1 i,
+.estudios2 i {
+    font-size: 3vh;
+    margin: 0 1vh;
+    position: relative;
+    left: 7vh;
+}
+.estudios p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.9em;
+}
+/*Contacto*/
+.contacto{
+    color: white;
+    padding: 50px;
+}
+.contacto .contenido-seccion{
+    max-width: 171vh;
+    margin: auto;
+    position: relative;
+    top: 14vh;
+}
+.contacto h2{
+    font-size: 6vh;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color:rgb(71, 71, 71);
+    color: white;
+    font-size: 2.5vh ;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 2.5;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:rgb(240, 183, 31);
+    z-index: -1; 
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+/* Pie de pagina */
+footer{
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 15vh;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a {
+    color: #fff;
+    display: inline-flex; /* Cambiado de inline-block a inline-flex */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin: 40px 5px;
+    transition: .3s;
+    font-size: 4vh; /* Asegúrate de usar una unidad válida, como 'em' */
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 3vh;
+}
+/* Media Queries */
+@media screen and (max-width: 980px) {
+    .contenedor-header header ul {
+        flex-direction: column;
+        display: none;
+        text-align: center;
+        position: static;
+        right: 0;
+    }
+    .contenedor-header header nav ul li {
+        margin: 10px 0;
+    }
+    .nav-responsive {
+        display: block;
+    }
+    .nav-responsive.active + nav ul {
+        display: flex;
+    }
+    .inicio-contenido {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    img {
+        margin: 0 auto 20px auto;
+    }
+    div h1, div h2, div h3, div p {
+        left: 0;
+    }
+    .redes {
+        top: auto;
+        right: auto;
+        margin-top: 20px;
+    }
+    .contenido-seccion h2, .contenido-seccion h3, .contenido-seccion span, .sobremi .fila li, .sobremi .fila h4 {
+        text-align: center;
+        left: 0;
+        bottom: 0;
+    }
+    .sobremi .fila {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+    }
+    .square, .redondos, .square1 {
+        margin: 0 auto;
+    }
+    .cajas1, .cajas2, .circulos, .subtitulos, .estudios1, .estudios2 {
+        justify-content: center;
+    }
+    .educacion {
+        right: 0;
+        top: 0;
+    }
+    .estudios1, .estudios2 {
+        left: 0;
+        top: 0;
+    }
+    .estudios p, .estudios2 p {
+        left: 0;
+        top: 0;
+    }
+}
